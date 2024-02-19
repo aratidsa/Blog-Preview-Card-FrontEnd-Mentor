@@ -27,7 +27,7 @@ In this small project, build out this blog preview card and get it looking as cl
 ### Links
 
 - Solution URL: https://github.com/aratidsa/Blog-Preview-Card-FrontEnd-Mentor
-- Live Site URL: 
+- Live Site URL: https://blog-preview-card-design-frontend.netlify.app/
 
 ## My process
 
