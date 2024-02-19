@@ -1,0 +1,168 @@
+/* RESET */
+
+html,body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+image
+{
+    max-width:100%;
+    display: block;
+}
+
+input,button
+{
+    font:inherit;
+}
+
+/* CUSTOM PROPERTIES */
+:root{
+    /* COLOR */
+    --clr-yellow: hsl(47, 88%, 63%);
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-Grey: hsl(0, 0%, 50%);
+    --clr-black: hsl(0, 0%, 7%); 
+
+    /* FONt SIZE */
+    --fs-16:1rem;
+
+    /* FONT FAMILY  */
+    --ff-figtree:"Figtree", sans-serif;
+
+   /* FONT WEIGHT  */
+   --fw-600:600;
+   --fw-800:800;
+
+}
+
+/* BODY */
+body{
+    font-family:var(--ff-figtree);
+    font-size: var(--fs-16);
+    font-weight: var(--fw-600);
+    line-height: 1.6;
+    background-color: var(--clr-yellow);   
+}
+
+/* COMPONENTS */
+
+main
+{
+    height: 100vh;
+    width: 100vw;    
+    color:var(--clr-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container
+{
+   width:21.38rem;
+   background-color: var(--clr-white);
+   border:1px solid black;
+   padding:1.25rem 0.94rem 0.63rem 1.25rem;
+   border-radius:0.94rem;
+   box-shadow: 0.63rem 0.63rem;
+}
+
+/* Illustration Image */
+
+.illustration
+{
+    border-radius:0.94rem;    
+}
+
+/* Title */
+.title-box
+{
+    background-color: var(--clr-yellow);
+    width:5.31rem;
+    height:1.88rem;
+    border-radius: 0.31rem;
+    margin-top:1.38rem;
+}
+.title
+{
+    font-size: 0.75rem;
+    font-weight: var(--fw-800);
+    padding-top:0.19rem;
+    margin-left:0.88rem;
+}
+
+/* Date */
+.publish
+{
+   margin-top:-0.31rem;
+}
+.publish-date
+{
+    font-size: 0.81rem;
+}
+
+/* Blog Name */
+.blog-name
+{
+    margin-top:-0.31rem;
+}
+.blog-name h1
+{
+    font-size: 1.31rem;
+    font-weight: var(--fw-800);
+}
+
+/* Information */
+.info
+{
+    font-size: 0.94rem;
+    color:var(--clr-Grey);
+    font-weight: normal;
+}
+
+/* Profile Picture and Name */
+.profile-pic
+{
+    width:2.19rem;
+    height:2.19rem;
+}
+
+.profile-img 
+{
+    margin-top:0.31rem;
+}
+
+.profile-name
+{
+    margin-left:3.13rem;
+    margin-top:-3.13rem;
+    font-size:0.81rem;
+    font-weight: var(--fw-800); 
+}
+
+/* Attribution */
+.attribution
+{
+    font-size: 0.75rem;
+    text-align: center;
+    margin-top:-4.38rem;
+}
+
+.attribution a
+{
+    text-decoration: none;
+    color: red;
+}
+
+@media only screen and (max-width: 375px), (max-device-width: 375px){
+    .container
+    {
+       width:18.75rem;
+    }
+
+    .illustration
+    {
+        width:18.75rem;     
+        margin-left:-0.13rem;  
+    }
+}
